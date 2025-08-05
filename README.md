@@ -1,1 +1,1 @@
-Privacy Policy AutoReserveBot
+#Privacy Policy AutoReserveBot
