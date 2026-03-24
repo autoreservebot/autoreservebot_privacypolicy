@@ -78,9 +78,10 @@ Nos reservamos el derecho de actualizar nuestra Política de Privacidad de vez e
 ## Italiano
 
 – Reserve Bot
+
 Ultimo aggiornamento: 24/03/2026
 
-1. L'applicazione è progettata per aiutare le persone, nella loro vita personale o professionale, a programmare automaticamente appuntamenti tramite app di messaggistica (ad esempio, WhatsApp, Telegram, ecc.).
+1. L'applicazione è progettata per aiutare le persone, nella loro vita personale o professionale, a prenotare automaticamente appuntamenti tramite le app di messaggistica (ad esempio, WhatsApp, Facebook, Instagram ecc.).
 
 L'applicazione Reserve Bot è in ascolto delle notifiche di sistema ricevute sul dispositivo dell'utente. Innanzitutto, l'utente sceglie le app di messaggistica a cui il bot deve rispondere. Il bot interagirà con questi contatti attraverso una sequenza di domande predefinite e, in base alle risposte ricevute, raccoglierà i dati necessari per programmare un appuntamento, come nome, data e ora, salvandoli in un database locale (SQLite). Tutti i dati elaborati dall'applicazione rimangono esclusivamente sul dispositivo dell'utente.
 
