@@ -102,11 +102,9 @@ FOREGROUND_SERVICE:
 Attiva un servizio essenziale ed indispensabile per il funzionamento continuo dell'applicazione "Reserve bot", dandogli una priorità rispetto alle altre applicazioni, limitando la chiusura della stessa, per questioni di risparmio energetico o ottimizzazione della batteria. Ciò garantisce che l'applicazione possa ascoltare e rispondere in modo continuativo. Visualizza inoltre una notifica persistente per informare l'utente che l'applicazione "Reserve bot" è sempre attiva in primo piano.
 
 
+FOREGROUND_SERVICE_REMOTE_MESSAGING: serve a gestire la ricezione e l'invio di messaggi in tempo reale, che richiedono una connessione costante e immediata, senza che il sistema possa "addormentare" l'app.
 
-
-FOREGROUND_SERVICE_DATA_SYNC: Interagisce con il database interno (SQLite) e i contatti localmente, anche quando l'applicazione è in background.
-
-POST_NOTIFICATIONS: POST_NOTIFICATIONS è un'autorizzazione che deve essere concessa dall'utente per consentire all'applicazione "Reserve bot" di visualizzare una notifica. Indispensabile per utilizzare le autorizzazioni BIND_NOTIFICATION_LISTENER_SERVICE e FOREGROUND_SERVICE.
+POST_NOTIFICATIONS: è un'autorizzazione che deve essere concessa dall'utente per consentire all'applicazione "Reserve bot" di visualizzare una notifica permanente, indispensabile per utilizzare le autorizzazioni FOREGROUND_SERVICE e FOREGROUND_SERVICE_REMOTE_MESSAGING.
 
 WAKE_LOCK: Impedisce al dispositivo di entrare in modalità sospensione durante l'elaborazione dei messaggi.
 
@@ -118,7 +116,7 @@ Privacy dei minori
 Questa applicazione non è destinata ai minori. Poiché l'applicazione opera interamente in locale e non trasmette dati personali a server esterni, non raccogliamo né memorizziamo informazioni personali di alcun utente, inclusi i minori.
 
 READ_CONTACT:
-L'applicazione "Reserve bot" richiede l'autorizzazione di accesso per leggere i contatti, però ciò accadrà esclusivamente se l'utente sceglie "WhatsApp" come piattaforma di risposta automatica, infatti tale autorizzazione consente all'utente di scegliere quali dei suoi contatti di "WhatsApp" può interagire con il bot per fissare un'appuntamento. I dati dei contatti non vengono da noi memorizzati su server esterni né condivisi in alcun modo.
+L'applicazione "Reserve bot" richiede l'autorizzazione di accesso per leggere i contatti presenti nella rubrica, però ciò accadrà esclusivamente se l'utente sceglie "WhatsApp" come piattaforma di risposta automatica, infatti tale autorizzazione consente all'utente di scegliere quali dei suoi contatti di "WhatsApp" può interagire con il bot per fissare un'appuntamento. I dati dei contatti non vengono da noi memorizzati su server esterni né condivisi in alcun modo.
 
 RECEIVE_BOOT_COMPLETED:
 Per riattivare l' applicazione "Reserve bot" immediatamente all'avvio del dispositivo, consentendo all' utente di non perdere appuntamenti, facendo in modo che il bot possa rispondere alle domande che si sono accumulate in coda, per la chiusura voluta o accidentale del dispositivo dell' utente.
