@@ -106,11 +106,11 @@ FOREGROUND_SERVICE_REMOTE_MESSAGING: serve a gestire la ricezione e l'invio di m
 
 POST_NOTIFICATIONS: è un'autorizzazione che deve essere concessa dall'utente per consentire all'applicazione "Reserve bot" di visualizzare una notifica permanente, indispensabile per utilizzare le autorizzazioni FOREGROUND_SERVICE e FOREGROUND_SERVICE_REMOTE_MESSAGING.
 
-WAKE_LOCK: Impedisce al dispositivo di entrare in modalità sospensione durante l'elaborazione dei messaggi.
+WAKE_LOCK: Utilizzato esclusivamente per garantire la corretta elaborazione dei messaggi e il salvataggio dei dati nel database locale, impedendo l'interruzione del servizio quando il dispositivo entra in modalità di risparmio energetico o a schermo spento.
 
 REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: Garantisce un funzionamento affidabile anche con le ottimizzazioni della batteria attive.
 
-INTERNET: Necessario per il motore Flutter e per l'utilizzo dei servizi di diagnostica tecnica (Google Firebase). Sebbene l'applicazione abbia l'autorizzazione a connettersi a Internet, tutte le funzionalità dell'app operano esclusivamente in locale, infatti tutti i dati che transitano all'interno dell'applicazione non vengono trasmessi in Internet. Dunque, i dati personali e tutti gli altri dati non vengono mai inviati all'esterno.
+INTERNET: L'accesso alla rete è limitato esclusivamente alla telemetria tecnica anonima e per l'utilizzo dei servizi di diagnostica tecnica (Google, Firebase Crashlytics). Sebbene l'applicazione abbia l'autorizzazione a connettersi a Internet, tutte le funzionalità dell'app operano esclusivamente in locale, infatti tutti i dati che transitano all'interno dell'applicazione non vengono trasmessi in Internet. Dunque, i dati personali e tutti gli altri dati non vengono mai inviati all'esterno.
 
 Privacy dei minori
 Questa applicazione non è destinata ai minori. Poiché l'applicazione opera interamente in locale e non trasmette dati personali a server esterni, non raccogliamo né memorizziamo informazioni personali di alcun utente, inclusi i minori.
