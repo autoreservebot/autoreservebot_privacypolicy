@@ -94,9 +94,15 @@ c) Dati inseriti nel database locale e dati personali dell'utente: i dati person
 
 3. Autorizzazioni necessarie per il corretto funzionamento: l'applicazione richiede le seguenti autorizzazioni Android:
 
+
+BIND_NOTIFICATION_LISTENER_SERVICE: Questa autorizzazione è indispensabile per il funzionamento dell'applicazione. Deve essere abilitato manualmente dall'utente. Consente di leggere sempre le notifiche di sistema in arrivo e avviare il processo di prenotazione automatica, in maniera continuativa anche in background, garantendo che l' applicazione "Reserve Bot" possa ascoltare e rispondere in modo affidabile, anche quando non è in primo piano. 
+
+
 FOREGROUND_SERVICE:
-Attiva un servizio essenziale ed indispensabile per il funzionamento continuo dell'applicazione.
-Ciò garantisce che l'applicazione possa ascoltare e rispondere in modo continuativo, anche quando non viene utilizzata attivamente. Visualizza una notifica persistente per informare l'utente che l'applicazione è attiva in primo piano.
+Attiva un servizio essenziale ed indispensabile per il funzionamento continuo dell'applicazione "Reserve bot", dandogli una priorità rispetto alle altre applicazioni, limitando la chiusura della stessa, per questioni di risparmio energetico o ottimizzazione della batteria. Ciò garantisce che l'applicazione possa ascoltare e rispondere in modo continuativo. Visualizza inoltre una notifica persistente per informare l'utente che l'applicazione "Reserve bot" è sempre attiva in primo piano.
+
+
+
 
 FOREGROUND_SERVICE_DATA_SYNC: Interagisce con il database interno (SQLite) e i contatti localmente, anche quando l'applicazione è in background.
 
@@ -117,7 +123,6 @@ L'applicazione "Reserve bot" richiede l'autorizzazione di accesso per leggere i 
 RECEIVE_BOOT_COMPLETED:
 Per riattivare l' applicazione "Reserve bot" immediatamente all'avvio del dispositivo, consentendo all' utente di non perdere appuntamenti, facendo in modo che il bot possa rispondere alle domande che si sono accumulate in coda, per la chiusura voluta o accidentale del dispositivo dell' utente.
 
-BIND_NOTIFICATION_LISTENER_SERVICE: Questa autorizzazione è indispensabile per il funzionamento dell'applicazione. Deve essere abilitato manualmente dall'utente. Consente di leggere sempre le notifiche di sistema in arrivo e avviare il processo di prenotazione automatica, in maniera continuativa anche in background, garantendo che l' applicazione "Reserve Bot" possa ascoltare e rispondere in modo affidabile, anche quando non è in primo piano. Visualizza inoltre una notifica persistente per informare l'utente che l'applicazione "Reserve bot" è sempre attiva in primo piano.
 
 4. Sicurezza dei dati locali: Nessun dato viene memorizzato su server esterni o nel cloud. L'applicazione memorizza i dati esclusivamente localmente utilizzando un database SQLite. L'app utilizza le misure di sicurezza standard del sistema operativo Android per proteggere i dati memorizzati localmente da accessi non autorizzati. Tuttavia, è responsabilità dell'utente proteggere fisicamente il proprio dispositivo (password, blocco schermo, ecc.).
 
