@@ -108,8 +108,6 @@ POST_NOTIFICATIONS: è un'autorizzazione che deve essere concessa dall'utente pe
 
 WAKE_LOCK: Utilizzato esclusivamente per garantire la corretta elaborazione dei messaggi e il salvataggio dei dati nel database locale, impedendo l'interruzione del servizio quando il dispositivo entra in modalità di risparmio energetico o a schermo spento.
 
-REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: Garantisce un funzionamento affidabile anche con le ottimizzazioni della batteria attive.
-
 INTERNET: L'accesso alla rete è limitato esclusivamente alla telemetria tecnica anonima e per l'utilizzo dei servizi di diagnostica tecnica (Google, Firebase Crashlytics). Sebbene l'applicazione abbia l'autorizzazione a connettersi a Internet, tutte le funzionalità dell'app operano esclusivamente in locale, infatti tutti i dati che transitano all'interno dell'applicazione non vengono trasmessi in Internet. Dunque, i dati personali e tutti gli altri dati non vengono mai inviati all'esterno.
 
 Privacy dei minori
@@ -119,7 +117,7 @@ READ_CONTACT:
 L'applicazione "Reserve bot" richiede l'autorizzazione di accesso per leggere i contatti presenti nella rubrica, però ciò accadrà esclusivamente se l'utente sceglie "WhatsApp" come piattaforma di risposta automatica, infatti tale autorizzazione consente all'utente di scegliere quali dei suoi contatti di "WhatsApp" può interagire con il bot per fissare un'appuntamento. I dati dei contatti non vengono da noi memorizzati su server esterni né condivisi in alcun modo.
 
 RECEIVE_BOOT_COMPLETED:
-Per riattivare l' applicazione "Reserve bot" immediatamente all'avvio del dispositivo, consentendo all' utente di non perdere appuntamenti, facendo in modo che il bot possa rispondere alle domande che si sono accumulate in coda, per la chiusura voluta o accidentale del dispositivo dell' utente.
+Importante per riattivare l' applicazione "Reserve bot" immediatamente all'avvio del dispositivo, consentendo all' utente di non perdere appuntamenti, facendo in modo che il bot possa rispondere alle domande che si sono accumulate in coda per la chiusura voluta o accidentale del dispositivo dell' utente.
 
 
 4. Sicurezza dei dati locali: Nessun dato viene memorizzato su server esterni o nel cloud. L'applicazione memorizza i dati esclusivamente localmente utilizzando un database SQLite. L'app utilizza le misure di sicurezza standard del sistema operativo Android per proteggere i dati memorizzati localmente da accessi non autorizzati. Tuttavia, è responsabilità dell'utente proteggere fisicamente il proprio dispositivo (password, blocco schermo, ecc.).
