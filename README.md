@@ -25,7 +25,15 @@ BIND_NOTIFICATION_LISTENER_SERVICE: Este permiso es esencial para el funcionamie
 
 FOREGROUND_SERVICE: Activa un servicio esencial para el funcionamiento continuo de la aplicación "Reserve Bot", dándole prioridad sobre otras aplicaciones y limitando su cierre, cuando el dispositivo requiere ahorrar energía u optimizar la batería. Esto garantiza que la aplicación pueda escuchar y responder de forma continua. También muestra una notificación permanente para informar al usuario de que la aplicación "Reserve bot" siempre está activa en primer plano.
 
+FOREGROUND_SERVICE_REMOTE_MESSAGING: Este permiso gestiona la recepción y el envío de mensajes en tiempo real, que requieren una conexión constante e inmediata, evitando que el sistema suspenda la aplicación.
 
+POST_NOTIFICATIONS: El usuario debe otorgar este permiso para que la aplicación "Reserve bot" pueda mostrar una notificación persistente, necesaria para usar los permisos FOREGROUND_SERVICE y FOREGROUND_SERVICE_REMOTE_MESSAGING.
+
+WAKE_LOCK: Se utiliza exclusivamente para garantizar el correcto procesamiento de mensajes y el almacenamiento de datos en la base de datos local, evitando la interrupción del servicio cuando el dispositivo entra en modo de ahorro de energía o la pantalla está apagada.
+
+INTERNET: El acceso a la red se limita exclusivamente a la telemetría técnica anónima y al uso de servicios de diagnóstico técnico (Firebase Crashlytics, Remote Config). Aunque la aplicación tiene permiso para conectarse a Internet, todas sus funciones operan exclusivamente de forma local; ningún dato dentro de la aplicación se transmite a través de Internet. Por lo tanto, los datos personales y cualquier otro dato nunca se envían fuera de la aplicación.
+
+READ_CONTACT: La aplicación "Reserve bot" solicita permiso para acceder a los contactos de la agenda, pero esto solo ocurrirá si el usuario elige WhatsApp como plataforma de respuesta automática. Este permiso permite al usuario seleccionar qué contactos de WhatsApp pueden interactuar con el bot para programar una cita. Los datos de contacto no se almacenan en servidores externos ni se comparten de ninguna manera.
 
 <br><br>
 
