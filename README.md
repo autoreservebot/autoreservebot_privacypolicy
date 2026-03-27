@@ -35,6 +35,23 @@ INTERNET: El acceso a la red se limita exclusivamente a la telemetría técnica 
 
 READ_CONTACT: La aplicación "Reserve bot" solicita permiso para acceder a los contactos de la agenda, pero esto solo ocurrirá si el usuario elige WhatsApp como plataforma de respuesta automática. Este permiso permite al usuario seleccionar qué contactos de WhatsApp pueden interactuar con el bot para programar una cita. Los datos de contacto no se almacenan en servidores externos ni se comparten de ninguna manera.
 
+RECEIVE_BOOT_COMPLETED:
+Importante para reactivar la aplicación "Reserve bot" inmediatamente al encender el dispositivo, asegurando que el usuario no pierda citas, permitiendo al bot de contestar a los mensajes acumulados en la cola debido al cierre intencional o accidental del dispositivo.
+
+4. Privacidad de los menores
+Esta aplicación no está destinada a menores de edad. Dado que la aplicación funciona completamente de forma local y no transmite datos personales a servidores externos, no recopilamos ni almacenamos información personal de ningún usuario, incluidos los menores.
+
+5. Seguridad de los datos locales: No se almacenan datos en servidores externos ni en el cloud. La aplicación almacena los datos exclusivamente de forma local mediante una base de datos SQLite. La aplicación utiliza las medidas de seguridad estándar del sistema operativo Android para proteger los datos almacenados localmente contra el acceso no autorizado. Sin embargo, es responsabilidad del usuario proteger físicamente su dispositivo (contraseña, bloqueo de pantalla, etc.).
+
+6. Derechos de acceso y eliminación de datos: el usuario puede desactivar todos los permisos otorgados en cualquier momento accediendo en la configuración de su dispositivo. El usuario tiene el control total sobre los datos que la aplicación guarda en la base de datos local del dispositivo. Puede administrar, editar o eliminar estos datos directamente desde la interfaz de la aplicación "Reserve Bot", o bien, desinstalar la app. "Reserve Bot" desde la configuración de su dispositivo.
+
+7. Afiliaciones: Esta aplicación (Reserve Bot) es un producto independiente y no está afiliada, respaldada ni patrocinada por WhatsApp, Facebook, Instagram ni ninguna otra aplicación de mensajería, y no requiere acceso interno a las API oficiales. Los nombres mencionados son solo para referencia del usuario.
+
+8. Cambios en esta Política de Privacidad: Nos reservamos el derecho de actualizar esta Política de Privacidad periódicamente. Cualquier cambio se comunicará mediante actualizaciones de la aplicación. Le recomendamos revisar esta Política de Privacidad cada vez que se publique una actualización de nuestra aplicación. El uso continuado de la aplicación Reserve Bot implica la aceptación de los cambios.
+
+9. Contacto: Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos: Correo electrónico: autoreservebot@gmail.com
+
+
 <br><br>
 
 ---
