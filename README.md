@@ -47,7 +47,7 @@ Esta aplicación no está destinada a menores de edad. Dado que la aplicación f
 
 7. Afiliaciones: Esta aplicación (Reserve Bot) es un producto independiente y no está afiliada, respaldada ni patrocinada por WhatsApp, Facebook, Instagram ni ninguna otra aplicación de mensajería, y no requiere acceso interno a las API oficiales. Los nombres mencionados son solo para referencia del usuario.
 
-8. Cambios en esta Política de Privacidad: Nos reservamos el derecho de actualizar esta Política de Privacidad periódicamente. Cualquier cambio se comunicará mediante actualizaciones de la aplicación. Le recomendamos revisar esta Política de Privacidad cada vez que se publique una actualización de nuestra aplicación. El uso continuado de la aplicación Reserve Bot implica la aceptación de los cambios.
+8. Cambios en esta Política de Privacidad: Nos reservamos el derecho de actualizar esta Política de Privacidad periódicamente. Cualquier cambio se comunicará mediante las actualizaciones de la aplicación. Le recomendamos revisar esta Política de Privacidad cada vez que se publique una actualización de nuestra aplicación. El uso continuado de la aplicación "Reserve Bot" implica la aceptación de los cambios.
 
 9. Contacto: Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos: Correo electrónico: autoreservebot@gmail.com
 
