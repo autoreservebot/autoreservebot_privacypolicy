@@ -19,7 +19,7 @@ La aplicación "Reserve Bot" escucha las notificaciones del sistema recibidas en
 
 Contactos del dispositivo: La aplicación solo puede acceder a los contactos del dispositivo con el consentimiento explícito del usuario. Esto permite al usuario seleccionar los contactos con los que el bot puede interactuar. Los contactos se leen únicamente de forma local en el dispositivo del usuario. No los leemos, enviamos, guardamos ni procesamos en servidores externos.
 
-3. Permisos necesarios para su correcto funcionamiento: La aplicación requiere los siguientes permisos de Android:
+3. La aplicación requiere los siguientes permisos de Android:
 
 BIND_NOTIFICATION_LISTENER_SERVICE: Este permiso es esencial para el funcionamiento de la aplicación. Debe ser habilitado manualmente por el usuario. Permite leer las notificaciones entrantes del sistema e iniciar el proceso de reserva automática de forma continua, incluso en segundo plano, garantizando que la aplicación "Reserve Bot" pueda escuchar y responder de forma fiable, incluso cuando no esté en primer plano.
 
@@ -71,8 +71,7 @@ L'applicazione "Reserve Bot" ascolta le notifiche di sistema ricevute sul dispos
 Contatti del dispositivo: l'applicazione può accedere ai contatti del dispositivo solo con l'esplicito consenso dell'utente. Lo scopo è consentire all'utente di selezionare i contatti con cui il bot può interagire. I contatti vengono letti solo localmente, sul dispositivo dell' utente. Non vengono letti, inviati, salvati o elaborati da noi su server esterni.
 
 
-3. Autorizzazioni necessarie per il corretto funzionamento: l'applicazione richiede le seguenti autorizzazioni Android:
-
+3. l'applicazione richiede le seguenti autorizzazioni Android:
 
 BIND_NOTIFICATION_LISTENER_SERVICE: Questa autorizzazione è indispensabile per il funzionamento dell'applicazione. Deve essere abilitato manualmente dall'utente. Consente di leggere sempre le notifiche di sistema in arrivo e avviare il processo di prenotazione automatica, in maniera continuativa anche in background, garantendo che l' applicazione "Reserve Bot" possa ascoltare e rispondere in modo affidabile, anche quando non è in primo piano. 
 
