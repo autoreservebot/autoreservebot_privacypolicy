@@ -25,7 +25,7 @@ BIND_NOTIFICATION_LISTENER_SERVICE: Este permiso es esencial para el funcionamie
 
 FOREGROUND_SERVICE: Activa un servicio esencial para el funcionamiento continuo de la aplicación "Reserve Bot", dándole prioridad sobre otras aplicaciones y limitando su cierre, cuando el dispositivo requiere ahorrar energía u optimizar la batería. Esto garantiza que la aplicación pueda escuchar y responder de forma continua. También muestra una notificación permanente para informar al usuario de que la aplicación "Reserve bot" siempre está activa en primer plano.
 
-FOREGROUND_SERVICE_REMOTE_MESSAGING: Necesita para una gestión inmediata de las respuestas a través de NotificationListener sin demoras impuestas por el sistema, por supuesto, este permiso gestiona la recepción y el envío de mensajes en tiempo real, que requieren una conexión constante e inmediata, evitando que el sistema suspenda la aplicación.
+FOREGROUND_SERVICE_REMOTE_MESSAGING: Necesita para una gestión inmediata de las respuestas a través de NotificationListener sin demoras impuestas por el sistema, por supuesto, es importante para el utente para no perder citas en la recepción y el envío de mensajes en tiempo real, que requieren una conexión constante e inmediata, evitando que el sistema suspenda la aplicación.
 
 POST_NOTIFICATIONS: El usuario debe otorgar este permiso para que la aplicación "Reserve bot" pueda mostrar una notificación persistente, necesaria para usar los permisos FOREGROUND_SERVICE y FOREGROUND_SERVICE_REMOTE_MESSAGING.
 
