@@ -21,7 +21,7 @@ Contactos del dispositivo: La aplicación solo puede acceder a los contactos del
 
 3. La aplicación requiere los siguientes permisos de Android:
 
-BIND_NOTIFICATION_LISTENER_SERVICE: Este permiso es esencial para el funcionamiento de la aplicación. Debe ser habilitado manualmente por el usuario. Permite leer las notificaciones entrantes del sistema e iniciar el proceso de reserva automática de forma continua, incluso en segundo plano, garantizando que la aplicación "Reserve Bot" pueda escuchar y responder de forma fiable, incluso cuando no esté en primer plano.
+BIND_NOTIFICATION_LISTENER_SERVICE: Este permiso se utiliza exclusivamente como puente tecnológico para permitir a los usuarios de gestionar sus reservas automáticamente. "Reserve Bot" no transmite ni comparte datos personales ni ningún otro tipo de datos de estas notificaciones con terceros ni servidores externos. Solo almacena en la base de datos local SQLite el contenido de las notificaciones estrictamente relevantes para el proceso de reserva configurado por el usuario. Este permiso es esencial para el funcionamiento de la aplicación. Debe ser habilitado manualmente por el usuario. Permite leer las notificaciones entrantes del sistema e iniciar el proceso de reserva automática de forma continua, incluso en segundo plano, garantizando que la aplicación "Reserve Bot" pueda escuchar y responder de forma fiable, incluso cuando no esté en primer plano.
 
 FOREGROUND_SERVICE: Activa un servicio esencial para el funcionamiento continuo de la aplicación "Reserve Bot", dándole prioridad sobre otras aplicaciones y limitando su cierre, cuando el dispositivo requiere ahorrar energía u optimizar la batería. Esto garantiza que la aplicación pueda escuchar y responder de forma continua. También muestra una notificación permanente para informar al usuario de que la aplicación "Reserve bot" siempre está activa en primer plano.
 
@@ -73,7 +73,7 @@ Contatti del dispositivo: l'applicazione può accedere ai contatti del dispositi
 
 3. l'applicazione richiede le seguenti autorizzazioni Android:
 
-BIND_NOTIFICATION_LISTENER_SERVICE: Questa autorizzazione è indispensabile per il funzionamento dell'applicazione. Deve essere abilitato manualmente dall'utente. Consente di leggere sempre le notifiche di sistema in arrivo e avviare il processo di prenotazione automatica, in maniera continuativa anche in background, garantendo che l' applicazione "Reserve Bot" possa ascoltare e rispondere in modo affidabile, anche quando non è in primo piano. 
+BIND_NOTIFICATION_LISTENER_SERVICE: Questo permesso è utilizzato esclusivamente come ponte tecnologico per permettere all'utente di gestire le proprie prenotazioni in modo automatizzato. "Reserve Bot" non trasmette o condivide dati personali o qualsiasi altro tipo di dato con terze parti o server esterni proveninti da tali notifiche, ma memorizza nel database locale SqLite solo il contenuto delle notifiche che siano strettamente pertinenti al flusso di prenotazione impostato dall'utente. Questa autorizzazione è indispensabile per il funzionamento dell'applicazione. Deve essere abilitato manualmente dall'utente. Consente di leggere sempre le notifiche di sistema in arrivo e avviare il processo di prenotazione automatico, in maniera continuativa anche in background, garantendo che l' applicazione "Reserve Bot" possa ascoltare e rispondere in modo affidabile, anche quando non è in primo piano. 
 
 
 FOREGROUND_SERVICE:
