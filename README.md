@@ -80,7 +80,7 @@ FOREGROUND_SERVICE:
 Attiva un servizio essenziale ed indispensabile per il funzionamento continuo dell'applicazione "Reserve bot", dandogli una priorità rispetto alle altre applicazioni, limitando la chiusura della stessa, per questioni di risparmio energetico o ottimizzazione della batteria. Ciò garantisce che l'applicazione possa ascoltare e rispondere in modo continuativo. Visualizza inoltre una notifica persistente per informare l'utente che l'applicazione "Reserve bot" è sempre attiva in primo piano.
 
 
-FOREGROUND_SERVICE_REMOTE_MESSAGING: serve alla gestione immediata delle risposte tramite il NotificationListener senza ritardi imposti dal sistema infatti è importante per la nostra app gestire la ricezione e l'invio di messaggi in tempo reale, che richiedono una connessione costante e immediata, senza che il sistema possa "addormentare" l'app.
+FOREGROUND_SERVICE_REMOTE_MESSAGING: serve alla gestione immediata delle risposte tramite il NotificationListener senza ritardi imposti dal sistema, infatti, è importante per l' utente per non perdere i suoi appuntamenti, nella ricezione e l'invio di messaggi in tempo reale, che richiedono una connessione costante e immediata, senza che il sistema possa "addormentare" l'app.
 
 POST_NOTIFICATIONS: è un'autorizzazione che deve essere concessa dall'utente per consentire all'applicazione "Reserve bot" di visualizzare una notifica permanente, indispensabile per utilizzare le autorizzazioni FOREGROUND_SERVICE e FOREGROUND_SERVICE_REMOTE_MESSAGING.
 
